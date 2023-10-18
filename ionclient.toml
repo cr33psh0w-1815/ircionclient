@@ -1,0 +1,14 @@
+[irc]
+server = "irc.example.com"  # IRC server address
+port = 6667  # IRC server port
+nickname = "your_username"  # Your IRC nickname
+owners = ["your_username"]  # List of authorized users
+
+[tor]
+torrc_path = "/path/to/torrc"  # Path to your torrc configuration file
+
+[hidden_service]
+local_address = "localhost:6667"  # Local address to route through Tor
+timeout = 60  # Hidden service timeout in seconds
+
+# Add more configuration options as needed
